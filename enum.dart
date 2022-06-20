@@ -1,33 +1,33 @@
-import 'dart:io';
+// import 'dart:io';
 
-enum DayTime {
-  morning,
-  afternoon,
-  evening,
-  night,
-}
+// enum DayTime {
+//   morning,
+//   afternoon,
+//   evening,
+//   night,
+// }
 
-void main() {
-  // String? a = stdin.readLineSync();
-  // a = a!.toLowerCase();
+// void main() {
+//   String? input = stdin.readLineSync();
+//   input = input!.toLowerCase();
 
-  String message = "Good ";
+//   final caseVal = input;
 
-  DayTime time = DayTime.afternoon;
+//   String message = "Good ";
 
-  switch (time) {
-    case DayTime.morning:
-      message += "morning";
-      break;
-    case DayTime.afternoon:
-      message += "afternoon";
-      break;
-    case DayTime.evening:
-      message += "evening";
-      break;
-    case DayTime.night:
-      message += "night";
-      break;
-  }
-  print(message);
-}
+//   switch (caseVal) {
+//     case DayTime.morning:
+//       message += "morning";
+//       break;
+//     case  DayTime.afternoon:
+//       message += "afternoon";
+//       break;
+//     case DayTime.evening:
+//       message += "evening";
+//       break;
+//     case a == DayTime.night:
+//       message += "night";
+//       break;
+//   }
+//   print(message);
+// }
